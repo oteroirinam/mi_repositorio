@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Jost', sans-serif; }
+  body header {
+    font-size: 150%;
+    height: 100px;
+    background-color: black;
+    color: #eda30e;
+    text-decoration: none; }
+
+a:hover {
+  background-color: #eda30e;
+  color: black;
+  /*GENEROS*/ }
+  a:hover .main-index h1 {
+    text-align: center; }
+  a:hover .corousel-inner-index {
+    height: 500px; }
+    a:hover .corousel-inner-index .carrousel-inner-index__img {
+      width: 200px;
+      max-height: 200px; }
+  a:hover .main-index .div-index-img .img-books-index {
+    width: 200px;
+    height: 400px; }
+  a:hover .main-index .div-index-img .img-books-index:hover {
+    transform: scale(1.5, 1.5); }
+  a:hover .footer-index {
+    color: black;
+    list-style: none;
+    height: 300px;
+    background: linear-gradient(to top, #755107, #eda30e);
+    list-style-type: none; }
+    a:hover .footer-index div h2 {
+      text-align: center; }
+      a:hover .footer-index div h2 .footer-index-style {
+        list-style-type: none; }
+  a:hover .main-generos .conteiner .row .row-cols-4 .main-div-generos {
+    text-align: center; }
+    a:hover .main-generos .conteiner .row .row-cols-4 .main-div-generos .img-generos {
+      height: 200px;
+      width: 200px; }
